@@ -1,7 +1,7 @@
 <template>
-    <main class="h-screen w-screen bg-bg">
-        <h1 class="text-center text-4xl font-semibold text-text pt-16">Project</h1>
-        <section class="flex justify-center gap-10 mt-10">
+    <main class="lg:h-screen w-screen bg-bg">
+        <h1 class="text-center text-2xl lg:text-4xl font-semibold text-text pt-20 lg:pt-16">Project</h1>
+        <section class="flex flex-col items-center lg:items-start lg:flex-row lg:justify-center gap-10 mt-10 lg:px-5">
             <CardProject v-for="(project, i) in allProjects" :key="i" :project="project" />
         </section>
     </main>

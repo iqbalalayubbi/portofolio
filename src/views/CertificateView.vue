@@ -1,7 +1,7 @@
 <template>
-    <main class="h-screen w-screen bg-bg">
-        <h1 class="text-center text-4xl font-semibold text-text pt-16">Certificate</h1>
-        <section class="flex justify-center gap-16 mt-16">
+    <main class="lg:h-screen w-screen bg-bg pb-20">
+        <h1 class="text-center text-2xl lg:text-4xl font-semibold text-text pt-16">Certificate</h1>
+        <section class="flex flex-col items-center lg:items-start lg:flex-row lg:justify-center gap-16 mt-16 lg:px-5">
             <CardCertificate v-for="(certificate, i) in allCertificate" :key="i" :certificate="certificate" />
         </section>
     </main>

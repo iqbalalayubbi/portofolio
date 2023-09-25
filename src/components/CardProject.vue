@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-primary flex justify-center p-5 h-96 rounded-md shadow-2xl">
+    <section class="bg-primary w-3/4 lg:w-full flex justify-center p-5 h-96 rounded-md shadow-2xl">
         <div class="flex flex-col gap-5 w-80">
             <div class="border-2">
                 <img :src="project.image" alt="" class="object-fill h-52 w-full" />

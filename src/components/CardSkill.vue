@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col items-center w-1/4 h-72 text-text border-2 border-text rounded-md gap-5">
+    <section class="flex flex-col items-center w-3/4 lg:w-1/4 h-72 text-text border-2 border-text rounded-md gap-5">
         <h1 class="text-2xl pt-10">{{ name }}</h1>
         <div class="flex flex-col gap-3">
             <div class="flex gap-3 hover:cursor-pointer hover:text-disabled" v-for="(skill, i) in skillData" :key="i">

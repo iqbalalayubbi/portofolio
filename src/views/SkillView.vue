@@ -1,7 +1,7 @@
 <template>
-    <main class="h-screen w-screen bg-bg">
-        <h1 class="text-center text-4xl font-semibold text-text pt-24">SKill</h1>
-        <section class="flex justify-center gap-10 mt-10">
+    <main class="lg:h-screen w-screen bg-bg">
+        <h1 class="text-center text-2xl lg:text-4xl font-semibold text-text lg:pt-24">SKill</h1>
+        <section class="flex flex-col items-center lg:item lg:flex-row lg:justify-center gap-10 mt-10">
             <CardSkill v-for="(skill, i) in allSkills" :key="i" :skillData="skill" :name="title[i]" />
         </section>
     </main>

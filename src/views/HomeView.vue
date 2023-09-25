@@ -1,12 +1,12 @@
 <template>
     <main class="bg-bg h-screen w-screen">
         <Navbar />
-        <section class="flex w-full justify-center items-center pt-10 gap-16">
-            <img src="../assets/foto-iqbal4.png" alt="" class="w-[40%] opacity-60" />
-            <div class="flex flex-col text-text gap-5">
-                <h1 class="text-6xl font-bold bg-primary">Hello</h1>
-                <h3 class="text-2xl">I'm Iqbal Al-Ayyubi</h3>
-                <p>
+        <section class="flex flex-col lg:flex-row w-full lg:justify-center lg:items-center pt-10 px-5 lg:px-0 lg:gap-16">
+            <img src="../assets/foto-iqbal4.png" alt="" class="self-end order-2 w-3/4 lg:w-[40%] opacity-60" />
+            <div class="flex flex-col text-text gap-5 order-1 mt-12 lg:mt-0">
+                <h1 class="text-2xl lg:text-6xl font-bold lg:bg-primary">Hello</h1>
+                <h3 class="text-xl lg:text-2xl">I'm Iqbal Al-Ayyubi</h3>
+                <p class="text-sm">
                     Informatic student at UPN Vetrean Jawa Timur. <br />
                     Let me introduce my self from this portofolio
                 </p>

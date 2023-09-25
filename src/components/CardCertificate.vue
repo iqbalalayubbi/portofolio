@@ -1,10 +1,12 @@
 <template>
-    <section>
-        <div class="text-text shadow-xl flex flex-col items-center gap-5 w-60 h-80 pt-3 bg-primary">
-            <img :src="certificate.image" alt="" class="w-52" />
-            <p class="bg-bg text-center py-5">
-                {{ certificate.title }}
-            </p>
+    <section class="w-full flex justify-center">
+        <div class="text-text shadow-lg shadow-slate-800 flex flex-col items-center gap-5 w-2/3 lg:w-72 h-80 pt-3 bg-primary rounded-md">
+            <img :src="certificate.image" alt="" class="w-60 lg:w-52" />
+            <div class="bg-bg text-center py-5 px-3">
+                <p class="">
+                    {{ certificate.title }}
+                </p>
+            </div>
         </div>
     </section>
 </template>
